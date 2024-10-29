@@ -1,0 +1,25 @@
+<?php
+// Variables
+$name = "Alex";
+$age = 25;
+
+// Conditional Statement
+if ($age >= 18) {
+    echo "Hello, $name! You are an adult.\n";
+} else {
+    echo "Hello, $name! You are a minor.\n";
+}
+
+// Loop
+echo "Counting from 1 to 5:\n";
+for ($i = 1; $i <= 5; $i++) {
+    echo $i . "\n";
+}
+
+// Function
+function greet($name) {
+    return "Welcome, " . $name . "!";
+}
+
+echo greet($name);  // Calling the function
+?>
